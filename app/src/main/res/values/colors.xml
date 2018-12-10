@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#00574b</color>
+    <color name="colorAccent">#797576</color>
+    <color name="btn_OK">#66ff00</color>
+    <color name="btn_CUT">#ffe600</color>
+    <color name="btn_NG">#ff0000</color>
+
+
+
+</resources>

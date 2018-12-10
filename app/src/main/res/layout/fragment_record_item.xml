@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/record_item_id"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/img_contact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/name_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/phone_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="phone name"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
